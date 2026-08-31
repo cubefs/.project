@@ -1,0 +1,73 @@
+# .project metadata for CubeFS
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+# TODO: Set slack_channels
+# TODO: Add package_managers if distributed via registries
+
+schema_version: "1.0.0"
+slug: "cubefs"
+name: "CubeFS"
+description: "CubeFS (formerly ChubaoFS) is a cloud native distributed file system and object store"
+type: "project"
+project_lead: "bladehliu" # TODO: AUTO-DETECTED — please verify
+# TODO: Set CNCF Slack channel(s)
+# slack_channels:
+#   - name: "#cubefs"
+#     primary: true
+
+maturity_log:
+  - phase: "graduated"
+    date: "2019-12-16T00:00:00Z"
+    issue: "https://github.com/cncf/toc/issues/1595" # TODO: AUTO-DETECTED — please verify
+
+repositories: # TODO: AUTO-DETECTED primary — please verify
+  - url: "https://github.com/cubeFS/cubefs"
+    primary: true
+    # tags: [core, sig-apps] # Optional
+
+website: "https://cubefs.io/"
+
+artwork: "https://landscape.cncf.io/logos/cubefs.svg"
+
+adopters:
+  path: "https://github.com/cubefs/cubefs/blob/master/ADOPTERS.md"
+
+
+# TODO: Add package manager identifiers if your project is distributed via registries
+# package_managers:
+#   docker: "cubefs/cubefs"
+
+social:
+  twitter: "https://twitter.com/ChubaoFS"
+
+security:
+  policy:
+    path: "https://github.com/cubefs/cubefs/blob/master/SECURITY.md"
+  contact:
+    advisory_url: "https://github.com/cubefs/cubefs/security/advisories/new"
+
+governance:
+  contributing:
+    path: "https://github.com/cubefs/cubefs/blob/master/CONTRIBUTING.md"
+  code_of_conduct:
+    path: "https://github.com/cubefs/cubefs/blob/master/CODE_OF_CONDUCT.md"
+
+legal:
+  license:
+    path: "https://github.com/cubefs/cubefs/blob/master/LICENSE"
+  identity_type:
+    has_dco: true # AUTO-DETECTED — please verify
+    has_cla: false # AUTO-DETECTED — please verify
+    dco_url:
+      path: "https://developercertificate.org/"
+
+documentation:
+  readme:
+    path: "https://github.com/cubefs/cubefs/blob/master/README.md"
+
+landscape:
+  category: "Runtime"
+  subcategory: "Cloud Native Storage"
+
+# CLOMonitor Score: 96/100
+# Documentation: 100 | License: 100 | Best Practices: 100 | Security: 82
