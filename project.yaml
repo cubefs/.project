@@ -27,7 +27,7 @@ repositories: # TODO: AUTO-DETECTED primary — please verify
 
 website: "https://cubefs.io/"
 
-artwork: "https://landscape.cncf.io/logos/cubefs.svg"
+artwork: "https://github.com/cncf/artwork/tree/main/projects/cubefs"
 
 adopters:
   path: "https://github.com/cubefs/cubefs/blob/master/ADOPTERS.md"
